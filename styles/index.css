@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@font-face {
+    font-family: "source-sans";
+    src: url(/assests/fonts/source-sans-pro.regular.ttf)
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    font-size: 62.5%;
+}
+
+/* color pallet */
+:root {
+    --primary: #071a2f;
+    --secondary: #013a72;
+    --light-black: #202020;
+    --dark-black: black;
+}

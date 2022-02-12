@@ -1,0 +1,86 @@
+@import url(/styles/index.css);
+.web-wrapper{
+    display: flex;
+    outline: 2px solid var(--dark-black);
+    width: 100vw;
+}
+.nav-main{
+    display: flex;
+    flex-direction: row;
+    height: 4rem;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+    padding: 0rem 2.5rem;
+    font-family: 'Montserrat', sans-serif;
+    box-shadow: 3px 8px 20px var(--dark-black);
+}
+.nav--logo{
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.nav--search{
+    position: relative;
+    width: 22%;
+    max-width: 25rem;
+    display: flex;
+    align-items: center;
+}
+.nav--search i{
+    font-size: 1.4rem;
+    font-weight: 500;
+    position: absolute;
+    margin: 0rem 0.5rem;
+}
+.nav--search input{
+    height: 2rem;
+    width: 100%;
+    outline: 2px solid var(--light-black);
+    border-radius: 0.5rem;
+    box-shadow: 2px 2px 8px var(--dark-black);
+    padding-left: 2.5rem;
+    font-size: 1rem;
+    font-weight: 600;
+}
+.nav--right-section{
+    display: flex;
+    align-items: center;
+    gap: 1rem
+}
+.nav--right-section button{
+    /* outline: 1px solid var(--light-black); */
+    padding: 0rem 0.5rem;
+    border-radius: 0.5rem;
+}
+.nav--right-section a{
+    text-decoration: none;
+    color: var(--light-black);
+    font-size: 1rem;
+    margin: auto;
+    margin: 0rem 0.5rem;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 0.5rem;
+}
+.nav--right-section i{
+    font-size: 2rem;
+    font-weight: 550;
+}
+.nav--heart-number{
+    display: flex;
+    position: relative;
+    justify-content: center;
+}
+.nav--heart-number p{
+    position: absolute;
+    bottom: 1.2rem;
+    left: 1.2rem;
+    font-size: 0.8rem;
+    font-weight: 800;
+    padding:0.2rem;
+    color: white;
+    background: rgb(255, 10, 10);
+    border-radius: 55%;
+    outline: 1px solid var(--dark-black);
+}
