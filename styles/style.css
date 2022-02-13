@@ -1,6 +1,10 @@
 @import url(/styles/index.css);
+body{
+    overflow-x: hidden;
+}
 .web-wrapper{
     display: flex;
+    flex-direction: column;
     outline: 2px solid var(--dark-black);
     width: 100vw;
 }
@@ -11,42 +15,29 @@
     align-items: center;
     width: 100%;
     justify-content: space-between;
-    padding: 0rem 2.5rem;
     font-family: 'Montserrat', sans-serif;
+    padding: 0rem 2rem;
     box-shadow: 3px 8px 20px var(--dark-black);
 }
 .nav--logo{
     text-decoration: none;
     font-size: 1.5rem;
     font-weight: 600;
+    width: fit-content;
 }
 .nav--search{
     position: relative;
     width: 22%;
-    max-width: 25rem;
+    /* max-width: 25rem; */
     display: flex;
     align-items: center;
-}
-.nav--search i{
-    font-size: 1.4rem;
-    font-weight: 500;
-    position: absolute;
-    margin: 0rem 0.5rem;
-}
-.nav--search input{
-    height: 2rem;
-    width: 100%;
-    outline: 2px solid var(--light-black);
-    border-radius: 0.5rem;
-    box-shadow: 2px 2px 8px var(--dark-black);
-    padding-left: 2.5rem;
-    font-size: 1rem;
-    font-weight: 600;
+    /* margin-left: 18rem; */
 }
 .nav--right-section{
     display: flex;
     align-items: center;
-    gap: 1rem
+    gap: 1rem;
+    /* margin-left: 5rem; */
 }
 .nav--right-section button{
     /* outline: 1px solid var(--light-black); */
@@ -67,10 +58,36 @@
     font-size: 2rem;
     font-weight: 550;
 }
+.right--search{
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.right--search i{
+    position: absolute;
+    padding: 0rem 0.6rem ;
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+.right--search input{
+    height: 2rem;
+    width: 12rem;
+    border-radius: 1rem;
+    box-shadow: 2px 2px 8px var(--light-black);
+    padding-left: 2rem;
+    padding-right: 1rem;
+    font-weight: 700;
+    font-size: 1.1rem;
+}
+.nav--right-section button:hover{
+    box-shadow: 2px 5px 5px var(--light-black);
+    cursor: pointer;
+}
 .nav--heart-number{
     display: flex;
     position: relative;
     justify-content: center;
+    cursor: pointer;
 }
 .nav--heart-number p{
     position: absolute;
@@ -84,3 +101,70 @@
     border-radius: 55%;
     outline: 1px solid var(--dark-black);
 }
+.web-wrapp--main-section{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    background: rgb(255, 255, 255);
+}
+.main--catagories{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding: 0rem 5rem;
+    justify-content: center;
+    margin: 8vh auto;
+    overflow-x: hidden;
+    gap: 1;
+}
+.main--catagories div{
+    height: 10rem;
+    width: 25rem;
+    margin: 0rem 0.5rem;
+    cursor: pointer;
+}
+.catagories{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.catagories p{
+    position: absolute;
+    color: var(--light-black);
+    font-weight: 700;
+    font-size: 1.5rem;
+    background: white;
+    font-family: 'Montserrat', sans-serif;
+    width: 100%;
+    text-align: center;
+}
+.catagories img{
+    border: 2px solid black;
+    border-radius: 0.5rem;
+    height: 100%;
+    width: 100%;
+}
+.main--hero{
+    display: flex;
+    justify-content: center;
+}
+.hero--holder{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 5%;
+}
+.main--hero img{
+    height: 25rem;
+    width: 60rem;
+    border-radius: 2rem;
+    outline: 2px solid black;
+    box-shadow: 5px 5px 5px black;
+}
+.hero--holder i{
+    font-size: 3rem;
+    cursor: pointer;
+}
+
