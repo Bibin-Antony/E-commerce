@@ -63,7 +63,7 @@ body{
     width: 15rem;
     border-radius: 1rem;
     outline: 1px solid var(--light-black);
-    box-shadow: 2px 2px 8px var(--light-black);
+    box-shadow: 1px 1px 5px var(--light-black);
     padding-left: 2rem;
     padding-right: 1rem;
     font-family: 'Montserrat', sans-serif;
@@ -131,8 +131,12 @@ body{
     position: absolute;
     font-size: 3rem;
 }
+.hero--arrowholder a{
+    z-index: 1;
+}
 .hero--arrowholder i{
     padding: 0rem 2rem;
+    font-size: 4rem;
     color: var(--light-black);
 }
 .main-hero img{
