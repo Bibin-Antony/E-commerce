@@ -8,17 +8,17 @@
     <title>Document</title>
     <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="/styles/style.css">
+    <link rel="stylesheet" href="/styles/index.css">
 </head>
 
 <body>
-    <div class="web-wrapper">
-        <section class="main-description">
+    <div class="web-wrapper flex-column w-screen-100">
+        <section class="main-description flex-row content-space-evenly items-center">
             <p class="description--text">Free shipping, 30-day return or refund guarantee.</p>
             <a href="#" class="description--link">FAQS</a>
         </section>
-        <nav class="nav-main">
-            <p class="nav--logo">
+        <nav class="nav-main flex-row items-center w-percentage-100 content-space-between">
+            <p class="nav--logo flex-row items-center w-fit">
                 Neutron
                 <svg version="1.0" xmlns="http://www.w3.org/2000/svg"
                 width="512.000000pt" height="512.000000pt" viewBox="0 0 512.000000 512.000000"
@@ -102,26 +102,26 @@
                 </svg>
             </p>
             
-            <div class="nav--right-section">
-                <div class="right--search">
-                    <i class='bx bx-search-alt'></i>
+            <div class="nav--right-section flex-row items-center">
+                <div class="right--search flex-row items-center relative">
+                    <i class='bx bx-search-alt absolute'></i>
                     <input type="text">
                 </div>
-                <button><a class="nav--login">
+                <button class="pointer"><a class="nav--login text-decoration-none">
                         Sign In
                     </a></button>
-                <button><a class="nav--login">
+                <button><a class="nav--login text-decoration-none">
                         login
                     </a></button>
-                <div class="nav--heart-number">
+                <div class="nav--heart-number pointer relative">
                     <i class='bx bx-heart'></i>
-                    <p class="heart--number">20</p>
+                    <p class="heart--number absolute">20</p>
                 </div>
-                <div class="nav--heart-number">
+                <div class="nav--heart-number pointer relative flex-row">
                     <i class='bx bx-cart'></i>
                     <p class="heart--number">20</p>
                 </div>
-                <a href="#">Cart</a>
+                <a href="#" class="text-decoration-none">Cart</a>
             </div>
         </nav>
         <section class="main--categories">

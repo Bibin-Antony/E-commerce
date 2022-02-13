@@ -2,16 +2,8 @@
 body{
     overflow-x: hidden;
 }
-.web-wrapper{
-    display: flex;
-    flex-direction: column;
-    width: 100vw;
-}
+
 .main-description{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    align-items: center;
     background: var(--dark-black);
     color: var(--white-color);
     height: 1.5rem;
@@ -26,39 +18,21 @@ body{
     text-decoration: none;
 }
 .nav-main{
-    display: flex;
-    flex-direction: row;
     height: 4rem;
-    align-items: center;
-    width: 100%;
-    justify-content: space-between;
     font-family: 'Montserrat', sans-serif;
     padding: 0rem 1.5rem;
     box-shadow: 3px 8px 20px var(--dark-black);
 }
 .nav--logo{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    text-decoration: none;
     font-size: 1.5rem;
     font-weight: 600;
-    width: fit-content;
     gap: 0.5rem;
 }
 .nav--logo svg{
     height: 100%;
     width: 2rem;
 }
-.nav--search{
-    position: relative;
-    width: 22%;
-    display: flex;
-    align-items: center;
-}
 .nav--right-section{
-    display: flex;
-    align-items: center;
     gap: 1rem;
 }
 .nav--right-section button{
@@ -67,7 +41,6 @@ body{
     border-radius: 0.5rem;
 }
 .nav--right-section a{
-    text-decoration: none;
     color: var(--light-black);
     font-size: 1rem;
     margin: auto;
@@ -80,13 +53,7 @@ body{
     font-size: 1.5rem;
     font-weight: 550;
 }
-.right--search{
-    display: flex;
-    align-items: center;
-    position: relative;
-}
 .right--search i{
-    position: absolute;
     padding: 0rem 0.6rem ;
     font-size: 1.4rem;
     font-weight: 600;
@@ -105,13 +72,9 @@ body{
 }
 .nav--right-section button:hover{
     box-shadow: 2px 2px 2px var(--light-black);
-    cursor: pointer;
 }
 .nav--heart-number{
-    display: flex;
-    position: relative;
     justify-content: center;
-    cursor: pointer;
 }
 .nav--heart-number p{
     position: absolute;
@@ -191,7 +154,7 @@ body{
     gap: 1rem;
     padding: 4rem 2rem;
     border-radius: 2rem;
-    background-color: rgba(200, 200, 200, 0.4);
+    background-color: var(--transparent-layout);
 }
 .summer-collection{
     font-size: 2rem;
