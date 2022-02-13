@@ -20,4 +20,8 @@ body{
     --secondary: #013a72;
     --light-black: #202020;
     --dark-black: black;
+    --white-color: white;
+    --nav-floating: #ff4141;
+    --footer-color : #111;
+    --light-text : #9e9e9e;
 }

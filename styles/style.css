@@ -12,8 +12,8 @@ body{
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
-    background: black;
-    color: white;
+    background: var(--dark-black);
+    color: var(--white-color);
     height: 1.5rem;
 }
 .main-description p,a{
@@ -22,7 +22,7 @@ body{
     font-family: 'Montserrat', sans-serif;
 }
 .main-description a{
-    color: white;
+    color: var(--white-color);
     text-decoration: none;
 }
 .nav-main{
@@ -62,7 +62,7 @@ body{
     gap: 1rem;
 }
 .nav--right-section button{
-    background: white;
+    background: var(--white-color);
     padding: 0rem 0.3rem;
     border-radius: 0.5rem;
 }
@@ -120,8 +120,8 @@ body{
     font-size: 0.5rem;
     font-weight: 800;
     padding:0.2rem;
-    color: white;
-    background: rgb(255, 65, 65);
+    color: var(--white-color);
+    background: var(--nav-floating);
     border-radius: 55%;
     outline: 1px solid var(--dark-black);
 }
@@ -243,7 +243,7 @@ body{
     color: var(--dark-black)
 }
 .arrival-nav .nav-text2, .nav-text3{
-    color: rgb(158, 158, 158); 
+    color: var(--light-text ); 
 }
 .arrival-section{
     display: grid;
@@ -285,7 +285,7 @@ body{
     height: 15rem;
     align-items: center;
     justify-content: space-around;
-    background: #111;
+    background: var(--footer-color);
 }
 .footer-left{
     display: flex;
@@ -299,8 +299,9 @@ body{
 }
 .footer-logo p{
     font-size: 2rem;
-    color: #ffffff;
+    color: var(--white-color);
 }
+
 .footer-logo svg{
     height: 100%;
     width: 2rem;
@@ -310,13 +311,13 @@ body{
     padding: 1rem 0rem;
     font-size: 1rem;
     font-weight: 500;
-    color: white;
+    color: var(--white-color);
 }
 .footer-left--payment{
     display: flex;
     flex-direction: row;
     align-items: center;
-    background: white;
+    background: var(--white-color);
     width: fit-content;
     border-radius: 0.5rem;
 }
@@ -331,9 +332,13 @@ body{
     flex-direction: column;
     gap: 0.5rem;
 }
-.footer-middle{
+.footer-middle p{
+    color: var(--white-color);
+}
+.footer-middle a{
     font-size: 1rem;
-    color: white;
+    text-decoration: none;
+    color: var(--white-color);
 }
 .footer-middle .footer-title{
     font-size: 1.3rem;
