@@ -1,0 +1,52 @@
+.current-page{
+    height: 4.5rem;
+    gap: 0.5rem;
+    padding: 0rem 5rem;
+    background: var(--transparent-layout);
+}
+.current-page a{
+    color: var(--light-black);
+    font-size: 1.2rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    
+    text-decoration: var(--dark-black) 3px underline;
+    text-decoration-color: transparent;
+    -webkit-text-decoration-color: transparent;
+    -moz-text-decoration-color: transparent;
+}
+.current-page a:hover{
+    transition: 0.8s;
+    text-decoration-color: var(--light-black);
+    -webkit-text-decoration-color: var(--light-black);
+    -moz-text-decoration-color: var(--light-black);
+}
+.current-page i{
+    font-size: 1.2rem;
+    font-weight: 800;
+}
+
+.holder-left{    
+    padding: 1rem;
+}
+.left--category{
+    margin: 0rem 1rem;
+    padding: 1rem 0rem;
+    padding-right: 3rem;
+    border-bottom: 2px solid var(--light-black);
+}
+.list-header{
+    margin: 0.5rem 0rem;
+    font-size: 1.3rem;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+}
+.list-holder{
+    margin: 0.5rem 0rem;
+    font-size: 1rem;
+}
+.categories li{
+    display: flex;
+    padding: 0.3rem 0rem;
+    align-items: center;
+}
