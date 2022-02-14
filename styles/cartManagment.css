@@ -1,0 +1,44 @@
+.cart-holder{
+    margin-top: 5rem;
+}
+.holder-cart-left{
+    width: 40%;
+    min-width: fit-content;
+
+    padding: 0rem 1rem;
+    outline: 1px solid black;
+}
+
+.cart-nav--left{
+    gap: 1rem;
+}
+.cart-nav--left p{
+    font-size: 1rem;
+}
+.left-cart-nav p{
+    font-size: 1rem;
+}
+.cart-nav--left
+.holder-cart--right{
+    width: 25%;
+}
+
+.left-cart-card{
+    margin: 1rem;
+    gap: 1rem;
+    width: 70%;
+}
+.cart-card-img img{
+    height: 5rem;
+    width: 5rem;
+}
+.cart-card-content{
+    gap: 0.5rem;
+}
+.cart-card-content p{
+    font-size: 1rem;
+    font-family: 'Montserrat', sans-serif;
+}
+.card-quantity{
+    gap: 1rem;
+}
