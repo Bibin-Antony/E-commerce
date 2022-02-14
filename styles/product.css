@@ -6,7 +6,7 @@
 }
 .current-page a{
     color: var(--light-black);
-    font-size: 1.2rem;
+    font-size: 0.8rem;
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
     
@@ -33,7 +33,7 @@
     margin: 0rem 1rem;
     padding: 1rem 0rem;
     padding-right: 3rem;
-    border-bottom: 2px solid var(--light-black);
+    border-bottom: 2px solid #797878;
 }
 .list-header{
     margin: 0.5rem 0rem;
@@ -41,12 +41,122 @@
     font-weight: 500;
     font-family: 'Montserrat', sans-serif;
 }
+.holder-left{
+    margin: 1rem;
+    border-radius: 0.5rem;
+    background: var(--transparent-layout);
+}
 .list-holder{
     margin: 0.5rem 0rem;
     font-size: 1rem;
 }
 .categories li{
-    display: flex;
     padding: 0.3rem 0rem;
     align-items: center;
+    cursor: pointer;
+}
+.categories li:hover{
+    transform: translateX(0.5rem);
+}
+.categories--list-holder i{
+    font-size: 1rem;
+}
+.categories div{
+    padding: 0.5rem 0rem;
+}
+.categories--list-holder p.color{
+    margin:0rem  0.3rem;
+    height: 1rem;
+    width: 1rem;
+    border-radius: 50%;
+}
+.categories--list-holder p.black-color{
+    background: var(--dark-black);
+}
+.categories--list-holder p.color-text{
+    font-size: 1rem;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+}
+.categories--list-holder:hover{
+    transform: translateX(0.5rem);
+    cursor: pointer;
+}
+.categories--list-holder p.blue-color{
+    background: rgb(67, 67, 255);
+}
+.categories--list-holder p.grey-color{
+    background: rgb(192, 192, 192);
+}
+.categories--list-holder p.green-color{
+    background: green;
+}
+.categories--list-holder p.red-color{
+    background: rgb(255, 52, 52);
+}
+.categories--list-holder p.purple-color{
+    background: rgb(172, 12, 172);
+}
+.categories input{
+    margin: 0rem 1rem;
+    border-radius: 1rem;
+}
+.categories .five-star i{
+    font-size: 1.3rem;
+}
+.categories .five-star i.star{
+    color: gold;
+    font-size: 1.3rem;
+}
+.categories .five-star:hover{
+    transform: translateX(0.5rem)
+}
+.holder-products{
+    margin: 0rem auto;
+    padding-left: 1rem;
+}
+.arrival--section{
+    display: grid;
+    grid-template-columns: repeat(4, 18rem);
+    grid-gap: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+    cursor: pointer;
+}
+.grid-items{
+    gap: 0.5rem;
+    outline: 2px solid rgb(150, 150, 150);
+    padding-bottom: 1.5rem;
+    border-radius: 1rem;
+    box-shadow: 2px 2px 5px var(--light-black);
+}
+.grid-items img{
+    border-radius: 1rem;
+    padding-bottom: 0.5rem;
+}
+.product-title-heart{
+    display: flex;
+    align-items: center;
+    padding: 0.0rem 0.8rem;
+}
+.product-title-heart p{
+    padding: 0rem 0rem;
+}
+.product-title-heart i{
+    margin-left: auto;
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: var(--light-black);
+}
+.stars{
+   font-size: 1rem;
+   padding-left: 0.8rem;
+   color: gold; 
+}
+.products-load-btn button{
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    margin-bottom: 2rem;
+    cursor: pointer;
+    background: whitesmoke;
 }
