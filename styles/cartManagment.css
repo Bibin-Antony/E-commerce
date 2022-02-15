@@ -2,18 +2,25 @@
     margin-top: 5rem;
 }
 .holder-cart-left{
-    width: 40%;
-    min-width: fit-content;
-
+    min-width: 30rem;
     padding: 0rem 1rem;
-    outline: 1px solid black;
+    border-radius: 0.4rem;
+    box-shadow: 2px 2px 8px black;
 }
 
 .cart-nav--left{
     gap: 1rem;
+    padding: 1rem 0rem;
 }
 .cart-nav--left p{
     font-size: 1rem;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+}
+p.cart-nav--continue{
+    font-size: 1rem;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
 }
 .left-cart-nav p{
     font-size: 1rem;
@@ -26,17 +33,44 @@
 .left-cart-card{
     margin: 1rem;
     gap: 1rem;
-    width: 70%;
+    max-width: 20rem;
+    padding: 1rem 0.5rem;
+    border-radius: 0.4rem;
+    justify-content: space-around;
+    box-shadow: 2px 2px 8px black;
+    background: var(--transparent-layout);
+}
+.left-cart-card i.plus{
+    font-size: 1.2rem;
+    outline: 2px solid black;
+    background-color: white;
+    cursor: pointer;
+    border-radius: 0.2rem;
+}
+.left-cart-card i.minus{
+    font-size: 1.2rem;
+    outline: 2px solid black;
+    background-color: white;
+    cursor: pointer;
+    border-radius: 0.2rem;
+}
+.left-cart-card i{
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: var(--light-black);
 }
 .cart-card-img img{
     height: 5rem;
     width: 5rem;
+    border-radius: 0.3rem;
+    box-shadow: 0px 2px 8px black;
 }
 .cart-card-content{
     gap: 0.5rem;
 }
 .cart-card-content p{
     font-size: 1rem;
+    font-weight: 600;
     font-family: 'Montserrat', sans-serif;
 }
 .card-quantity{
