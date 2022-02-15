@@ -32,7 +32,7 @@ body{
     --transparent-layout : rgba(200, 200, 200, 0.4);
     --cart-color : #e0ddddcc;
     --light-blue : #5353f7;
-    --blue : blue;
+    --blue : #0000ff;
 }
 
 /* flex */
