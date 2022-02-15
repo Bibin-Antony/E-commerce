@@ -1,13 +1,12 @@
 .cart-holder{
-    margin-top: 5rem;
+    margin: 5rem 0rem;
 }
-.holder-cart-left{
+.holder-cart{
     min-width: 30rem;
     padding: 0rem 1rem;
     border-radius: 0.4rem;
-    box-shadow: 2px 2px 8px black;
+    box-shadow: 2px 2px 8px var(--light-black);
 }
-
 .cart-nav--left{
     gap: 1rem;
     padding: 1rem 0rem;
@@ -15,12 +14,12 @@
 .cart-nav--left p{
     font-size: 1rem;
     font-weight: 700;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Raleway', sans-serif;
 }
 p.cart-nav--continue{
-    font-size: 1rem;
-    font-weight: 700;
-    font-family: 'Montserrat', sans-serif;
+    font-size: 0.2rem;
+    font-weight: 500;
+    font-family: serif;
 }
 .left-cart-nav p{
     font-size: 1rem;
@@ -29,7 +28,6 @@ p.cart-nav--continue{
 .holder-cart--right{
     width: 25%;
 }
-
 .left-cart-card{
     margin: 1rem;
     gap: 1rem;
@@ -37,19 +35,19 @@ p.cart-nav--continue{
     padding: 1rem 0.5rem;
     border-radius: 0.4rem;
     justify-content: space-around;
-    box-shadow: 2px 2px 8px black;
+    box-shadow: 2px 2px 8px var(--light-black);
     background: var(--transparent-layout);
 }
 .left-cart-card i.plus{
     font-size: 1.2rem;
-    outline: 2px solid black;
+    outline: 2px solid var(--light-black);
     background-color: white;
     cursor: pointer;
     border-radius: 0.2rem;
 }
 .left-cart-card i.minus{
     font-size: 1.2rem;
-    outline: 2px solid black;
+    outline: 2px solid var(--light-black);
     background-color: white;
     cursor: pointer;
     border-radius: 0.2rem;
@@ -63,16 +61,57 @@ p.cart-nav--continue{
     height: 5rem;
     width: 5rem;
     border-radius: 0.3rem;
-    box-shadow: 0px 2px 8px black;
+    box-shadow: 0px 2px 2px var(--light-black);
 }
 .cart-card-content{
     gap: 0.5rem;
 }
-.cart-card-content p{
+.cart-card-content p.card-title{
     font-size: 1rem;
+    font-weight: 700;
+    font-family: 'Raleway', sans-serif;
+}
+.cart-card-content p.card-details{
+    font-size: 0.8rem;
     font-weight: 600;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Raleway', sans-serif;
+}
+.card-quantity p.card-quantity--number{
+    font-size: 1rem;
+    font-weight: 700;
+    font-family: 'Raleway', sans-serif;
 }
 .card-quantity{
     gap: 1rem;
+    padding-top: 0.5rem;
+}
+.left-cart--subtotal, .left-cart--total{
+    background: var(--cart-color);
+}
+.left-cart--subtotal p{
+    padding: 1rem;
+    font-size: 1rem;
+}
+.left-cart--promo p{
+    padding: 1rem;
+    font-size: 1rem;
+}
+p.subtotal-coupon{
+    cursor: pointer;
+    color: var(--blue);
+}
+.left-cart--total p{
+    padding: 1rem;
+    font-size: 1rem;
+}
+.left-cart--btn{
+    height: 3rem;
+    background: var(--light-blue);
+    margin: 1rem 0rem;
+    cursor: pointer;
+}
+.left-cart--btn a{
+    color: white;
+    font-size: 1rem;
+    font-weight: 600;
 }
