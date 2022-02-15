@@ -9,7 +9,6 @@
     font-size: 0.8rem;
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
-    
     text-decoration: var(--dark-black) 3px underline;
     text-decoration-color: transparent;
     -webkit-text-decoration-color: transparent;
@@ -117,11 +116,13 @@
 }
 .arrival--section{
     display: grid;
-    grid-template-columns: repeat(4, 18rem);
+    grid-template-columns: repeat(auto-fill, 18rem);
     grid-gap: 1rem;
     padding-top: 1rem;
     padding-bottom: 2rem;
     cursor: pointer;
+    width: calc(100vw - 249px);
+    justify-content: center;
 }
 .grid-items{
     gap: 0.5rem;

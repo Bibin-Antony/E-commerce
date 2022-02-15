@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 @import url(/styles/style.css);
 @import url(/styles/product.css);
+@import url(/styles/wishlist.css);
 @font-face {
     font-family: "source-sans";
     src: url(/assests/fonts/source-sans-pro.regular.ttf)
