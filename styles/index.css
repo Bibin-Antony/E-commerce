@@ -3,19 +3,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
 @import url(/styles/style.css);
 @import url(/styles/product.css);
+@import url(/styles/wishlist.css);
 @import url(/styles/cartManagment.css);
+
+
 @font-face {
     font-family: "source-sans";
     src: url(/assests/fonts/source-sans-pro.regular.ttf)
 }
-*{
+
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
 
-body{
+body {
     font-size: 62.5%;
 }
 
@@ -27,76 +31,92 @@ body{
     --dark-black: black;
     --white-color: white;
     --nav-floating: #ff4141;
-    --footer-color : #111;
-    --light-text : #9e9e9e;
-    --transparent-layout : rgba(200, 200, 200, 0.4);
-    --cart-color : #e0ddddcc;
-    --light-blue : #5353f7;
-    --blue : #0000ff;
+
+    --footer-color: #111;
+    --light-text: #9e9e9e;
+    --transparent-layout: #c8c8c866;
+
+    --footer-color: #111;
+    --light-text: #9e9e9e;
+    --transparent-layout: rgba(200, 200, 200, 0.4);
+    --cart-color: #e0ddddcc;
+    --light-blue: #5353f7;
+    --blue: #0000ff;
+
 }
 
 /* flex */
-.flex-row{
+.flex-row {
     display: flex;
 }
 
-.flex-column{
+.flex-column {
     display: flex;
     flex-direction: column;
 }
 
-.wrap{
+.wrap {
     flex-wrap: wrap;
 }
 
-.flex-center{
+.flex-center {
     align-items: center;
     justify-content: center;
 }
-.items-center{
+
+.items-center {
     align-items: center;
 }
-.content-center{
+
+.content-center {
     justify-content: center;
 }
-.content-space-between{
+
+.content-space-between {
     justify-content: space-between;
 }
-.content-space-evenly{
+
+.content-space-evenly {
     justify-content: space-evenly;
 }
-.content-space-around{
+
+.content-space-around {
     justify-content: space-around;
 }
 
 /* postion */
-.relative{
+.relative {
     position: relative;
 }
-.absolute{
+
+.absolute {
     position: absolute;
 }
+
 /* width */
 
-.w-screen-100{
+.w-screen-100 {
     width: 100vw;
 }
 
-.w-percentage-100{
+.w-percentage-100 {
     width: 100%;
 }
-.w-fit{
+
+.w-fit {
     width: fit-content;
 }
+
 /* text */
-.text-decoration-none{
+.text-decoration-none {
     text-decoration: none;
 }
+
 /* cursor */
-.pointer{
+.pointer {
     cursor: pointer;
 }
 
-.list-style-none{
+.list-style-none {
     list-style: none;
 }

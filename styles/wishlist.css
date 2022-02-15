@@ -1,0 +1,18 @@
+.wishlist-section {
+    color: black;
+}
+
+p.wishlist {
+    margin-top: 4rem;
+    font-size: 2rem;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.wishlist-holder {
+    margin: 4rem 0rem;
+}
+
+.product-title-heart i.red {
+    color: var(--nav-floating);
+}
