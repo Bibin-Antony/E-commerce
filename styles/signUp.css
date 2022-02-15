@@ -1,0 +1,40 @@
+p.title{
+    font-size: 1rem;
+    font-family: 'Poppins', sans-serif;
+    padding: 0.4rem 0rem;
+    font-weight: 500;
+}
+input{
+    width: 18rem;
+    padding: 0.4rem 0.3rem;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+}
+.flow{
+    margin-bottom: 3rem;
+}
+.email-signup{
+    width: fit-content;
+}
+.terms-signup{
+    gap: 1rem;
+}
+.sign-up-holder{
+    height: 100vh;
+}
+.signup-holder{
+    outline: 1px solid black;
+    padding: 2rem 5rem;
+    border-radius: 0.3rem;
+    gap: 1rem;
+    margin-bottom: 3rem;
+}
+button{
+    height: 3rem;
+    background: var(--light-blue);
+    width: 15rem;
+    cursor: pointer;
+}
+button a{
+    color: var(--white-color);
+}
