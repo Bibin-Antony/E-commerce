@@ -1,0 +1,14 @@
+.forgot-password a{
+    font-size: 1rem;
+    color: var(--light-blue);
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    cursor: pointer;
+}
+.terms-signup i{
+    font-size: 1.5rem;
+}
+.create-account{
+    gap: 1rem;
+    cursor: pointer;
+}
