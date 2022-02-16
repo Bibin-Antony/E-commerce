@@ -23,6 +23,7 @@ body{
     padding: 0rem 1.5rem;
     box-shadow: 3px 8px 20px var(--dark-black);
 }
+
 .nav--logo{
     font-size: 1.5rem;
     font-weight: 600;
