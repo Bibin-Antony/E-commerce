@@ -1,0 +1,34 @@
+.logout-holder{
+    height: 100vh;
+    background: rgb(255, 199, 208);
+}
+.logout-section{
+    gap: 1rem;
+    outline: 1px solid black;
+    padding: 5rem  2rem;
+    border-radius: 0.5rem;
+    background: white;
+}
+.icon-holder i{
+    font-size: 5rem;
+}
+p.logout-title{
+    font-size: 1.5rem;
+    font-family: 'Poppins', sans-serif;
+    padding: 2rem 0rem;
+}
+button.go-back{
+    margin: 0.5rem 0rem;
+    padding: 0.6rem;
+    border-radius: 0.4rem;
+}
+button.go-back:hover{
+    box-shadow: 2px 2px 5px var(--light-black);
+    cursor: pointer;
+}   
+.go-back a{
+    font-size: 1.2rem;
+    color: var(--light-black);
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
