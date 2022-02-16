@@ -31,7 +31,7 @@ input{
     gap: 1rem;
     margin: 10rem 0rem;
 }
-button{
+button.btn-signup{
     height: 3rem;
     background: var(--light-blue);
     width: 15rem;
