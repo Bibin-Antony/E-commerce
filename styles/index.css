@@ -8,6 +8,7 @@
 @import url(/styles/cartManagment.css);
 @import url(/styles/signUp.css);
 @import url(/styles/login.css);
+@import url(/styles/logout.css);
 
 @font-face {
     font-family: "source-sans";
