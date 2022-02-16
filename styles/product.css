@@ -147,7 +147,7 @@
     padding-top: 1rem;
     padding-bottom: 2rem;
     cursor: pointer;
-    width: calc(100vw - 249px);
+    width: 60vw;
     justify-content: center;
 }
 
