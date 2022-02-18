@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 @import url(/styles/style.css);
 @import url(/styles/product.css);
 @import url(/styles/wishlist.css);
@@ -119,4 +120,18 @@ body {
 
 .list-style-none {
     list-style: none;
+}
+/* font */
+.subtext-roboto{
+    font-family: ;
+}
+@media screen and (max-width: 850px) {
+    *{
+        font-size: 60%;
+    }
+}
+@media screen and (max-width: 550px) {
+    *{
+        font-size: 38%;
+    }
 }

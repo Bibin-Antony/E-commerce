@@ -3,13 +3,14 @@ p.title{
     font-family: 'Poppins', sans-serif;
     padding: 0.4rem 0rem;
     font-weight: 500;
+    letter-spacing: 0.05rem;
 }
 p.signup{
     font-size: 1.5rem;
     font-weight: 700;
 }
 .inputs{
-    width: 18rem;
+    width: 15rem;
     padding: 0.4rem 0.3rem;
     font-weight: 600;
     font-family: 'Poppins', sans-serif;
@@ -40,3 +41,4 @@ button.btn-signup{
 button a{
     color: var(--white-color);
 }
+
