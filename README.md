@@ -27,11 +27,9 @@ Neutron UI, is an online shopping website This is a geniune and native mobile re
 
 ![mobile](https://user-images.githubusercontent.com/40894472/154852733-99533af4-90a8-44ee-9355-6e94e91418bd.png)
 
-## 🔗 Connect with me
+### 🔗 Connect with me
 For support or feedback, email at 
 antonybibin43@gmail.com
 [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://twitter.com/bibin_antony_)
 [![twitter](https://img.shields.io/badge/twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://www.linkedin.com/in/bibin-antony-k-5047ab148/)
-=======
-# E-commerce
 
