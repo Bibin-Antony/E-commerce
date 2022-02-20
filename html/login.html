@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="/styles/index.css">
     <title>Document</title>
 </head>
@@ -17,30 +17,36 @@
         <section class="current-page flex-row items-center ">
             <a href="/index.html" class="text-decoration-none">Home</a>
             <i class='bx bx-chevron-right pointer'></i>
-            <a href="#" class="text-decoration-none">Sign up</a>
+            <a href="#" class="text-decoration-none">Login</a>
         </section>
        <section class="sign-up-holder flex-column flex-center">
             <div class="signup-holder flex-column ">
-            <p class="signup-title title w-fit signup">Signup</p>
+            <p class="signup-title title w-fit signup">Login</p>
             <div class="email-signup w-fit">
                 <p class="email-title title">Email address</p>
                 <input type="email"  placeholder="example@gmail.com" class="inputs">
             </div>
             <div class="password-signup w-fit">
-                <p class="email-title title">password</p>
+                <p class="email-title title">Password</p>
                 <input type="password" placeholder="enter your password" class="inputs">
             </div>
-            <div class="password-signup w-fit">
-                <p class="email-title title">Re-enter password</p>
-                <input type="password" placeholder="re-enter your password" class="inputs">
+            <div class="terms-signup flex-row items-center w-fit">
+                <input type="checkbox" class="w-fit">
+                <p class="email-title title">Remember me</p>
             </div>
             <div class="terms-signup flex-row items-center w-fit">
-                <input type="checkbox" class="w-fit inputs">
-                <p class="email-title title">I accept all Terms & Conditions</p>
+                <p class="email-title forgot-password"><a href="#" class="text-decoration-none"> forgot your Password?</a> </p>
             </div>
             <button class="btn-signup flex-row flex-center">
                 <a href="#" class="text-decoration-none">Sign Up</a>
             </button>
+            <div class="terms-signup flex-row items-center w-fit">
+                <div class="create-account flex-row items-center" >
+                    <a href="/html/signUp.html" class="text-decoration-none flex-row items-center">
+                <p class="email-title title">Create New Account</p>
+                <i class='bx bx-right-arrow-alt arrow'></i></a>
+                </div>
+            </div>
         </div>
         </section>   
         <section class="Footer">

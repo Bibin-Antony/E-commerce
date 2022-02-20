@@ -1,0 +1,22 @@
+.forgot-password a{
+    font-size: 1rem;
+    color: var(--light-blue);
+    font-family: "Roboto", sans-serif;
+    letter-spacing: 0.05rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+.terms-signup i{
+    font-size: 1.5rem;
+}
+.create-account{
+    gap: 1rem;
+    cursor: pointer;
+}
+@media screen and (max-width: 850px) {
+    .sign-up-holder{
+        height: 80vh;
+    }
+}
+
+
