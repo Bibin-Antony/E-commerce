@@ -122,9 +122,7 @@ body {
     list-style: none;
 }
 /* font */
-.subtext-roboto{
-    font-family: ;
-}
+
 @media screen and (max-width: 850px) {
     *{
         font-size: 60%;

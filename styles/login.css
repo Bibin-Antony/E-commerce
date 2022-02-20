@@ -13,6 +13,10 @@
     gap: 1rem;
     cursor: pointer;
 }
-
+@media screen and (max-width: 850px) {
+    .sign-up-holder{
+        height: 80vh;
+    }
+}
 
 
