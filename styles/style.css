@@ -213,15 +213,15 @@ body{
 .arrival-nav .nav-text2, .nav-text3{
     color: var(--light-text ); 
 }
-.arrival-section{
+/* .arrival-section{
     display: grid;
     grid-template-columns: repeat(3, 18rem);
     grid-gap: 1rem;
     padding: 2rem 0rem;
     text-align: center;
     cursor: pointer;
-}
-.arrival-section div{
+} */
+/* .arrival-section div{
     display: flex;
     flex-direction: column;
     height: 25rem;
@@ -245,7 +245,7 @@ body{
     padding: 0rem 0.8rem;
     font-weight: 600;
     font-family: 'Montserrat', sans-serif; 
-}
+} */
 .footer{
     display: grid;
     gap: 8rem;
